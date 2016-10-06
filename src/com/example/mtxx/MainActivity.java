@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 	public void faceBeauty(View view){
 		
 		final ProgressDialog progressDialog = new ProgressDialog(this);
-		progressDialog.setMessage("正在美颜中，给我一分钟，还你个微辣！");
+		progressDialog.setMessage("正在美颜中，给我一分钟，还你个辣眼睛......！");
 		progressDialog.show();
 		
 		new Thread(new Runnable() {
